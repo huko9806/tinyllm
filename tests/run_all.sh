@@ -1,11 +1,20 @@
 #!/bin/bash
 # Runs all tests against the copy on the Pi, one after another, and stops if Tiny LLM is in use there.
-# Needs an installed copy on the Pi (TINYLLM_PI_DIR, default ~/pi-projects/tinyllm) and, on this PC,
-# tests/.venv with pyte (see README.md). Takes about 20 minutes; outputs land in tests/out/.
+# Needs an installed copy on the Pi, found through the tinyllm command there (or set TINYLLM_PI_DIR),
+# and, on this PC, tests/.venv with pyte (see README.md). Takes about 20 minutes; outputs land in tests/out/.
 cd "$(dirname "$0")" || exit 1
 PYTHON="${PYTHON:-.venv/bin/python}"
-export TINYLLM_PI_DIR="${TINYLLM_PI_DIR:-~/pi-projects/tinyllm}"
-# Runs on the Pi, whose shell expands the ~; the unit tests read the variable there.
+if [ -z "${TINYLLM_PI_DIR:-}" ]; then
+    found=$(ssh -o BatchMode=yes pi 'bash -lc "readlink -f \"\$(command -v tinyllm)\""')
+    if [ -z "$found" ]; then
+        echo "Tiny LLM not found on the Pi: put the tinyllm symlink into ~/.local/bin there, or set TINYLLM_PI_DIR"
+        exit 1
+    fi
+    TINYLLM_PI_DIR=$(dirname "$found")
+fi
+export TINYLLM_PI_DIR
+echo "Tiny LLM on the Pi: $TINYLLM_PI_DIR"
+# Runs on the Pi, whose shell expands a ~ in the variable; the unit tests read it there.
 PI_PYTHON="TINYLLM_PI_DIR=$TINYLLM_PI_DIR $TINYLLM_PI_DIR/.venv/bin/python"
 mkdir -p out
 failed=0

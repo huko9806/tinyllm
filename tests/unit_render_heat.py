@@ -2,10 +2,13 @@
 import io
 import os
 import re
+import shutil
 import sys
 
 os.environ.setdefault("TINYLLM_CONFIG", "/tmp/tinyllm-unit")  # never the real settings
-sys.path.insert(0, os.path.expanduser(os.environ.get("TINYLLM_PI_DIR", "~/pi-projects/tinyllm")))
+# The Tiny LLM folder: TINYLLM_PI_DIR, or the folder the tinyllm command points to.
+command = shutil.which("tinyllm") or os.path.expanduser("~/.local/bin/tinyllm")
+sys.path.insert(0, os.path.expanduser(os.environ.get("TINYLLM_PI_DIR") or os.path.dirname(os.path.realpath(command))))
 import backends  # noqa: E402
 import tinyllm_tui as tui  # noqa: E402
 from rich.console import Console  # noqa: E402

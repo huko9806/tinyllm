@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="/bench · Raspberry Pi 3B · 2026-11-09">
+<title>/bench · Raspberry Pi 3B · 2026-11-09</title>
+<rect x="0.5" y="0.5" width="879" height="299" rx="14" fill="#11151c" stroke="#2a3140"/>
+<path d="M0.5 34H879.5" stroke="#2a3140"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f57"/><circle cx="42" cy="17" r="6" fill="#febc2e"/><circle cx="62" cy="17" r="6" fill="#28c840"/>
+<text x="84" y="21.5" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="13" fill="#7d838d">/bench · Raspberry Pi 3B · 2026-11-09</text>
+<text x="200" y="58" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#a0a4ab" text-anchor="start" font-weight="normal">Speed, tokens per second</text>
+<path d="M200 70V248" stroke="#2a3140" stroke-width="1"/>
+<path d="M259.4 70V248" stroke="#7d838d" stroke-width="1"/>
+<text x="259.375" y="264" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#7d838d" text-anchor="middle" font-weight="normal">reading pace</text>
+<text x="188" y="91" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#d0d0d0" text-anchor="end" font-weight="normal">TinyStories 28.9M int4</text>
+<path d="M200 78H386.0a4 4 0 0 1 4 4V92a4 4 0 0 1 -4 4H200Z" fill="#3987e5"/>
+<path d="M376.0 76l-5 11.0l5 11.0" stroke="#11151c" stroke-width="3" fill="none"/>
+<path d="M382.0 76l-5 11.0l5 11.0" stroke="#11151c" stroke-width="3" fill="none"/>
+<text x="396.0" y="91" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">203</text>
+<text x="188" y="127" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#d0d0d0" text-anchor="end" font-weight="normal">SmolLM2 135M Q4_K_M</text>
+<path d="M200 114H382.4a4 4 0 0 1 4 4V128a4 4 0 0 1 -4 4H200Z" fill="#3987e5"/>
+<text x="392.4375" y="127" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">15.7</text>
+<text x="188" y="163" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#d0d0d0" text-anchor="end" font-weight="normal">granite 4.0 H 350M Q4_K_M</text>
+<path d="M200 150H262.5a4 4 0 0 1 4 4V164a4 4 0 0 1 -4 4H200Z" fill="#3987e5"/>
+<text x="272.5" y="163" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">5.6</text>
+<text x="188" y="199" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#d0d0d0" text-anchor="end" font-weight="normal">LFM2 700M Q4_K_M</text>
+<path d="M200 186H244.7a4 4 0 0 1 4 4V200a4 4 0 0 1 -4 4H200Z" fill="#3987e5"/>
+<text x="254.6875" y="199" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">4.1</text>
+<text x="188" y="235" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#d0d0d0" text-anchor="end" font-weight="normal">Qwen3 0.6B Q4_K_M</text>
+<path d="M200 222H249.4a4 4 0 0 1 4 4V236a4 4 0 0 1 -4 4H200Z" fill="#3987e5"/>
+<text x="259.4375" y="235" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">4.5</text>
+<text x="430" y="58" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#a0a4ab" text-anchor="start" font-weight="normal">RAM while answering, MB</text>
+<path d="M430 70V248" stroke="#2a3140" stroke-width="1"/>
+<path d="M620.0 70V248" stroke="#7d838d" stroke-width="1"/>
+<text x="622.0" y="264" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">all of the Pi's 904 MB</text>
+<rect x="430" y="78" width="3.8" height="18" fill="#3987e5"/>
+<text x="439.783185840708" y="91" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">18</text>
+<path d="M430 114H463.6a4 4 0 0 1 4 4V128a4 4 0 0 1 -4 4H430Z" fill="#3987e5"/>
+<text x="473.6216814159292" y="127" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">179</text>
+<path d="M430 150H493.9a4 4 0 0 1 4 4V164a4 4 0 0 1 -4 4H430Z" fill="#3987e5"/>
+<text x="503.88716814159295" y="163" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">323</text>
+<path d="M430 186H532.8a4 4 0 0 1 4 4V200a4 4 0 0 1 -4 4H430Z" fill="#3987e5"/>
+<text x="542.7699115044247" y="199" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">508</text>
+<path d="M430 222H565.6a4 4 0 0 1 4 4V236a4 4 0 0 1 -4 4H430Z" fill="#3987e5"/>
+<text x="575.5575221238938" y="235" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">664</text>
+<text x="660" y="58" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#a0a4ab" text-anchor="start" font-weight="normal">Load time, seconds</text>
+<path d="M660 70V248" stroke="#2a3140" stroke-width="1"/>
+<rect x="660" y="78" width="0.0" height="18" fill="#3987e5"/>
+<text x="666.0" y="91" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">0</text>
+<path d="M660 114H701.6a4 4 0 0 1 4 4V128a4 4 0 0 1 -4 4H660Z" fill="#3987e5"/>
+<text x="711.6" y="127" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">6s</text>
+<path d="M660 150H747.2a4 4 0 0 1 4 4V164a4 4 0 0 1 -4 4H660Z" fill="#3987e5"/>
+<text x="757.2" y="163" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">12s</text>
+<path d="M660 186H830.8a4 4 0 0 1 4 4V200a4 4 0 0 1 -4 4H660Z" fill="#3987e5"/>
+<text x="840.8" y="199" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">23s</text>
+<path d="M660 222H808.0a4 4 0 0 1 4 4V236a4 4 0 0 1 -4 4H660Z" fill="#3987e5"/>
+<text x="818.0" y="235" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#a0a4ab" text-anchor="start" font-weight="normal">20s</text>
+<text x="20" y="284" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#7d838d" text-anchor="start" font-weight="normal">Q4_K_M files through llama-server, 4 threads, 2048 context. TinyStories runs in its own C program. Peak CPU temperatures 69 to 73 °C.</text>
+</svg>

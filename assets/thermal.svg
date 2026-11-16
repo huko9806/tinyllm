@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" role="img" aria-label="LFM2 700M, one answer of 1024 tokens · Raspberry Pi 3B · 2026-11-16">
+<title>LFM2 700M, one answer of 1024 tokens · Raspberry Pi 3B · 2026-11-16</title>
+<rect x="0.5" y="0.5" width="879" height="439" rx="14" fill="#11151c" stroke="#2a3140"/>
+<path d="M0.5 34H879.5" stroke="#2a3140"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f57"/><circle cx="42" cy="17" r="6" fill="#febc2e"/><circle cx="62" cy="17" r="6" fill="#28c840"/>
+<text x="84" y="21.5" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="13" fill="#7d838d">LFM2 700M, one answer of 1024 tokens · Raspberry Pi 3B · 2026-11-16</text>
+<rect x="164.6" y="56" width="685.4" height="324" fill="#d95926" fill-opacity="0.08"/>
+<text x="850" y="60" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">shaded: clock capped by the firmware</text>
+<text x="70" y="60" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#a0a4ab" text-anchor="start" font-weight="normal">CPU temperature</text>
+<path d="M70 170.0H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="174.0" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">50 °C</text>
+<path d="M70 120.0H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="124.0" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">70 °C</text>
+<path d="M70 95.0H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="99.0" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">80 °C</text>
+<polyline points="70.0,144.8 82.0,127.3 93.7,120.5 105.7,115.0 117.4,109.8 129.2,105.5 140.9,101.5 152.9,96.2 164.6,93.5 176.3,93.5 188.3,90.8 200.0,90.8 211.8,89.5 223.7,89.5 235.5,88.2 247.2,88.2 259.2,88.2 270.9,86.8 282.9,85.5 294.6,88.2 306.4,86.8 318.1,86.8 330.1,86.8 341.8,85.5 353.8,85.5 365.5,85.5 377.3,85.5 389.2,85.5 401.0,85.5 412.7,84.0 424.7,85.5 436.4,85.5 448.1,85.5 460.1,85.5 471.9,84.0 483.6,85.5 495.3,85.5 507.3,85.5 519.0,85.5 530.8,84.0 542.7,85.5 554.5,84.0 566.4,85.5 578.2,82.7 589.9,84.0 601.9,82.7 613.6,84.0 625.4,85.5 637.3,85.5 649.1,84.0 661.0,85.5 672.8,84.0 684.5,82.7 696.3,84.0 708.2,85.5 720.0,84.0 731.7,84.0 743.7,82.7 755.4,85.5 767.1,84.0 779.1,82.7 790.8,82.7 802.6,82.7 814.6,85.5 826.3,84.0 838.0,84.0 850.0,84.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="850.0" cy="84.0" r="4" fill="#3987e5" stroke="#11151c" stroke-width="2"/>
+<path d="M70 95.0H850" stroke="#7d838d" stroke-width="1"/>
+<text x="578.1853746614505" y="74.74999999999999" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="11" fill="#a0a4ab" text-anchor="middle" font-weight="normal">peak 84.9 °C</text>
+<text x="70" y="205" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#a0a4ab" text-anchor="start" font-weight="normal">CPU clock</text>
+<path d="M70 266.4H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="270.42857142857144" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">700 MHz</text>
+<path d="M70 240.7H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="244.71428571428572" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">1000 MHz</text>
+<path d="M70 223.6H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="227.57142857142856" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">1200 MHz</text>
+<polyline points="70.0,223.6 82.0,223.6 93.7,223.6 105.7,223.6 117.4,223.6 129.2,223.6 140.9,223.7 152.9,223.6 164.6,224.0 176.3,224.0 188.3,237.8 200.0,242.4 211.8,237.8 223.7,247.1 235.5,242.4 247.2,247.1 259.2,247.1 270.9,251.7 282.9,251.7 294.6,251.7 306.4,247.1 318.1,251.7 330.1,247.1 341.8,256.3 353.8,256.3 365.5,256.3 377.3,256.3 389.2,256.3 401.0,256.3 412.7,256.3 424.7,256.3 436.4,256.3 448.1,256.3 460.1,256.3 471.9,256.3 483.6,256.3 495.3,256.3 507.3,265.5 519.0,265.5 530.8,265.5 542.7,260.9 554.5,256.3 566.4,260.9 578.2,256.3 589.9,260.9 601.9,260.9 613.6,260.9 625.4,260.9 637.3,260.9 649.1,260.9 661.0,260.9 672.8,260.9 684.5,256.3 696.3,260.9 708.2,260.9 720.0,265.5 731.7,260.9 743.7,256.3 755.4,260.9 767.1,260.9 779.1,260.9 790.8,265.5 802.6,260.9 814.6,265.5 826.3,265.5 838.0,260.9 850.0,256.3" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="850.0" cy="256.3" r="4" fill="#d95926" stroke="#11151c" stroke-width="2"/>
+<text x="70" y="310" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#a0a4ab" text-anchor="start" font-weight="normal">Tokens per second</text>
+<path d="M70 380.0H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="384.0" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">0</text>
+<path d="M70 350.0H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="354.0" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">2.5</text>
+<path d="M70 320.0H850" stroke="#1b2130" stroke-width="1"/>
+<text x="62" y="324.0" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="end" font-weight="normal">5</text>
+<polyline points="117.4,337.8 129.2,331.0 140.9,330.4 152.9,331.0 164.6,331.0 176.3,331.0 188.3,331.9 200.0,332.2 211.8,333.4 223.7,334.9 235.5,336.4 247.2,337.6 259.2,339.0 270.9,340.0 282.9,340.2 294.6,340.8 306.4,341.2 318.1,341.2 330.1,341.8 341.8,342.4 353.8,342.6 365.5,343.2 377.3,343.6 389.2,343.2 401.0,343.6 412.7,343.6 424.7,344.4 436.4,344.8 448.1,344.8 460.1,345.5 471.9,344.8 483.6,345.4 495.3,346.0 507.3,345.4 519.0,346.0 530.8,346.0 542.7,346.1 554.5,346.0 566.4,346.1 578.2,346.1 589.9,346.0 601.9,346.7 613.6,346.6 625.4,347.2 637.3,347.3 649.1,347.2 661.0,347.9 672.8,347.3 684.5,347.8 696.3,347.8 708.2,347.8 720.0,347.8 731.7,347.8 743.7,348.5 755.4,347.8 767.1,348.4 779.1,347.9 790.8,347.8 802.6,348.4 814.6,347.9 826.3,348.4 838.0,347.8 850.0,347.9" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="850.0" cy="347.9" r="4" fill="#199e70" stroke="#11151c" stroke-width="2"/>
+<path d="M70.0 380v4" stroke="#7d838d"/>
+<text x="70.0" y="396" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="middle" font-weight="normal">0 min</text>
+<path d="M210.8 380v4" stroke="#7d838d"/>
+<text x="210.83659343966295" y="396" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="middle" font-weight="normal">1 min</text>
+<path d="M351.7 380v4" stroke="#7d838d"/>
+<text x="351.6731868793259" y="396" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="middle" font-weight="normal">2 min</text>
+<path d="M492.5 380v4" stroke="#7d838d"/>
+<text x="492.5097803189889" y="396" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="middle" font-weight="normal">3 min</text>
+<path d="M633.3 380v4" stroke="#7d838d"/>
+<text x="633.3463737586518" y="396" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="middle" font-weight="normal">4 min</text>
+<path d="M774.2 380v4" stroke="#7d838d"/>
+<text x="774.1829671983147" y="396" font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#7d838d" text-anchor="middle" font-weight="normal">5 min</text>
+<text x="20" y="424" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#7d838d" text-anchor="start" font-weight="normal">1024 tokens in 5.6 minutes, 3.0 tokens per second on average. Started at 60.1 °C after a few minutes of idling. 4 threads, heatsink, closed case, no fan.</text>
+</svg>

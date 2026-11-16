@@ -15,6 +15,7 @@
 </p>
 
 <p align="center">
+  <a href="#what-this-is-and-what-it-is-not">About</a> ·
   <a href="#features">Features</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#installation">Installation</a> ·
@@ -29,6 +30,16 @@
 <p align="center">
   <img src="assets/screenshot.svg" alt="Tiny LLM in a terminal: an answer streams in while the context bar and the live readings update on the bottom rows" width="880">
 </p>
+
+## What this is, and what it is not
+
+This is a hobby project. The question behind it was simple: how far does a Raspberry Pi 3B from 2016, with four slow cores, 1 GB of RAM and no GPU, get with today's small language models? The answer is in the [measurements](#measurements): a little further than expected, and nowhere near useful.
+
+- **Not an assistant.** The models that fit are tiny (135M to 700M parameters, quantized to 4 bits). They invent facts, lose the thread after a few turns and answer at 4 to 16 tokens per second, which is slower than you read. Nothing here should be trusted with real questions.
+- **A playground.** It is a good way to see with your own eyes how llama.cpp, GGUF quantization, chat templates, context windows and thermal throttling behave, on hardware where every megabyte and every degree shows.
+- **A terminal UI exercise.** Live status rows, streaming Markdown, model switching, benchmarks and a few guard rails for a machine that is always short of memory.
+
+If you want a language model that is actually useful, run it on something else. If you want to watch a 350M-parameter model write a bedtime story at 5 tokens per second while the CPU climbs to 80 °C, read on.
 
 ## Features
 
@@ -125,7 +136,13 @@ The context is fixed at 2048 tokens because of the RAM. Settings, input history,
 
 ## Measurements
 
-`/bench` on 2026-11-09 on a Raspberry Pi 3B with 4 cores and a heatsink in a closed case:
+All numbers come from one Raspberry Pi 3B with a heatsink in a closed case without a fan, running the models on 4 threads with a context of 2048 tokens. The charts are drawn by [assets/make_charts.py](assets/make_charts.py) from the values below.
+
+<p align="center">
+  <img src="assets/bench.svg" alt="Bar charts of speed, RAM and load time for five models. TinyStories reaches 203 tokens per second, SmolLM2 15.7, the other three between 4.1 and 5.6, below a reading pace of 5. RAM ranges from 18 to 664 MB of 904, load time from 0 to 23 seconds." width="880">
+</p>
+
+Only SmolLM2 and TinyStories answer faster than you read. The three larger models take 4 to 6 seconds for a sentence, and Qwen3 alone leaves less than 250 MB for everything else. `/bench` on 2026-11-09:
 
 | Model | Load | Tokens/s | RAM | Peak |
 |---|--:|--:|--:|--:|
@@ -137,14 +154,20 @@ The context is fixed at 2048 tokens because of the RAM. Settings, input history,
 
 ¹ grows to about 700 MB during a chat.
 
-With 1024 tokens of continuous load, LFM2 reached 83.8 °C and was throttled. With `/heat on`, Tiny LLM restarts the model server after an answer: with one core less above 80 °C (at least 2), and with one more below 70 °C.
+The short `/bench` answers stay below 75 °C. A long answer does not. This is one answer of 1024 tokens from LFM2 on 2026-11-16, sampled every 5 seconds with `vcgencmd` (the data is in [assets/thermal-run.csv](assets/thermal-run.csv)):
+
+<p align="center">
+  <img src="assets/thermal.svg" alt="Three line charts over 5.6 minutes: the CPU temperature rises from 60 to 80 °C within 40 seconds and stays at about 84 °C; the firmware then caps the clock from 1200 MHz to about 770 MHz; the speed falls from 4 tokens per second to 2.5." width="880">
+</p>
+
+The Pi reaches 80 °C after 40 seconds. From then on the firmware caps the clock, first to about 900 MHz and soon to about 770 MHz, and the answer slows from 4 to 2.5 tokens per second. The 4.1 tokens per second from `/bench` are what you get in the first minute. With `/heat on`, Tiny LLM restarts the model server after an answer with one core less above 80 °C (at least 2) and with one more below 70 °C, which keeps the Pi cooler at the price of speed. A fan would help more.
 
 ## Tests
 
 The tests run on a PC and drive Tiny LLM on the Pi over SSH. They need:
 
 - an SSH host alias `pi` with key login
-- an installed copy on the Pi in `~/pi-projects/tinyllm`, or `TINYLLM_PI_DIR` set to its folder
+- an installed copy on the Pi with the `tinyllm` symlink in `~/.local/bin`, as in [Installation](#installation); the tests find the folder through that command, or you set `TINYLLM_PI_DIR` to it
 - SmolLM2 135M and granite 4.0 H 350M in `models/`
 - internet access for one test that downloads a small model from Hugging Face
 

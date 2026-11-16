@@ -10,9 +10,23 @@ import pyte
 
 COLS, ROWS = 100, 30
 CONFIG = "/tmp/tinyllm-test"
-MODELS = os.environ.get("TINYLLM_PI_DIR", "~/pi-projects/tinyllm") + "/models"  # the Pi's shell expands the ~
 SSH = ["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=15", "pi"]
 failures = []
+
+
+def pi_dir():
+    """The Tiny LLM folder on the Pi: TINYLLM_PI_DIR, or the folder the tinyllm command there points to."""
+    folder = os.environ.get("TINYLLM_PI_DIR")
+    if not folder:
+        found = subprocess.run(SSH + ["bash -lc 'readlink -f \"$(command -v tinyllm)\"'"],
+                               capture_output=True, text=True).stdout.strip()
+        if not found:
+            sys.exit("Tiny LLM not found on the Pi: put the tinyllm symlink into ~/.local/bin there, or set TINYLLM_PI_DIR")
+        folder = os.path.dirname(found)
+    return folder
+
+
+MODELS = pi_dir() + "/models"
 proc = screen = stream = None
 
 
