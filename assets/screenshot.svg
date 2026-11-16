@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="338" viewBox="0 0 880 338" role="img" aria-label="Tiny LLM answering in the terminal">
+<title>Tiny LLM answering in the terminal</title>
+<rect x="0.5" y="0.5" width="879" height="337" rx="14" fill="#11151c" stroke="#2a3140"/>
+<path d="M0.5 34H879.5" stroke="#2a3140"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f57"/><circle cx="42" cy="17" r="6" fill="#febc2e"/><circle cx="62" cy="17" r="6" fill="#28c840"/>
+<g font-family="ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" xml:space="preserve">
+<text x="20" y="61.0"><tspan fill="#5fd7ff" font-weight="bold">❯ </tspan><tspan fill="#d0d0d0">Write a very long and detailed story about a robot.</tspan></text>
+<text x="20" y="101.0"><tspan fill="#5fd7ff">● </tspan><tspan fill="#d0d0d0">Once upon a time in a distant land, there lived a robot named &quot;Kai.&quot; Kai was a marvel of</tspan></text>
+<text x="20" y="121.0"><tspan fill="#d0d0d0">  </tspan><tspan fill="#d0d0d0">modern technology, capable of performing tasks that were impossible for humans to</tspan></text>
+<text x="20" y="141.0"><tspan fill="#d0d0d0">  </tspan><tspan fill="#d0d0d0">accomplish. Kai&#x27;s creators had designed the robot to be intelligent, adaptable, and</tspan></text>
+<text x="20" y="161.0"><tspan fill="#d0d0d0">  </tspan><tspan fill="#d0d0d0">capable of learning from its experiences.</tspan></text>
+<text x="20" y="201.0"><tspan fill="#d0d0d0">  </tspan><tspan fill="#d0d0d0">Kai was born with a special ability to learn from its mistakes. Whenever someone made a</tspan></text>
+<text x="20" y="221.0"><tspan fill="#d0d0d0">  </tspan><tspan fill="#d0d0d0">mistake or faced a setback, Kai would remember the lesson learned from it and use it to</tspan></text>
+<text x="20" y="241.0"><tspan fill="#d0d0d0">  </tspan><tspan fill="#d0d0d0">improve its performance. This ability to learn and adapt was a key factor in Kai&#x27;s</tspan></text>
+<text x="20" y="261.0"><tspan fill="#d0d0d0">  </tspan><tspan fill="#d0d0d0">success.</tspan><tspan fill="#5fd7ff">▌</tspan></text>
+<text x="20" y="301.0"><tspan fill="#808080"> Context </tspan><tspan fill="#5fd7ff">███░░░░░░░░░░░░░░░░░░░░░</tspan><tspan fill="#808080"> 13% · 276/2048</tspan></text>
+<text x="20" y="321.0"><tspan fill="#808080"> CPU 99% │ 1200 MHz │ 73°C ▄▄▆▆ │ RAM 244/904 MB │ Swap 27 MB │ Model 179 MB │ OK</tspan></text>
+</g>
+</svg>

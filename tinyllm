@@ -1,0 +1,7 @@
+#!/bin/sh
+# Starts Tiny LLM from the folder this script lives in; a symlink to it (for example in
+# ~/.local/bin) works too. Uses the Python environment .venv/ in that folder if there is one.
+dir=$(dirname "$(readlink -f "$0")")
+python="$dir/.venv/bin/python"
+[ -x "$python" ] || python=python3
+exec "$python" "$dir/tinyllm_tui.py" "$@"

@@ -1,0 +1,25 @@
+# Models and builds: large, with their own licences
+*.gguf
+models/
+llama/
+tinystories/model.bin
+tinystories/tokenizer.json
+tinystories/metadata.json
+tinystories/tinystories_pi
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Test output: contains local paths and host names
+tests/out/
+
+# Personal notes for Claude: local setup, user name, address
+CLAUDE.md
+.claude/
+
+# User data from ~/.config/tinyllm, in case it is ever copied here
+settings.json
+chats/
+last-answer.txt
